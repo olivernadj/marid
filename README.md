@@ -1,4 +1,4 @@
-# marid
+# Marid
 Marid is an integration server for OpsGenie.
 
 ### Base Docker Image
