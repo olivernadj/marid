@@ -1,0 +1,8 @@
+marid:
+  image: olivernadj/marid
+  volumes:
+    - ./etc/marid.conf:/etc/marid.conf
+    - ./scripts:/var/lib/scripts
+  environment:
+    CONF_PATH: '/etc/marid.conf'
+    SCRIPTS_DIR: '/var/lib/scripts'
