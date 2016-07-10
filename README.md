@@ -1,5 +1,9 @@
 # Marid
-Marid is an integration server for OpsGenie.
+[Marid](https://www.opsgenie.com/docs/dashboard/marid) is an integration server for [OpsGenie](https://www.opsgenie.com/).
+
+### Dockerfile
+
+This repository contains Dockerfile for [Marid 2.4](https://www.opsgenie.com/docs/marid/marid-integration-server-for-opsgenie) and JRuby 9.1.2 build and published to the public [Docker Hub Registry.](https://hub.docker.com/r/olivernadj/marid/)
 
 ### Base Docker Image
 
