@@ -1,10 +1,12 @@
 marid:
-  image: olivernadj/marid
+  image: olivernadj/marid:debug
   volumes:
     - ./etc/marid-proxy.conf:/etc/marid.conf
     - ./scripts:/var/lib/scripts
   environment:
     CONF_PATH: '/etc/marid.conf'
     SCRIPTS_DIR: '/var/lib/scripts'
+    LOG_CONF_PATH: '/etc/log.properties'
+    DJAVAX_NET_DEBUG: 'ssl:handshake'
     http_proxy: 'http://netproxy1.loc:8080'
     https_proxy: 'http://netproxy1.loc:8080'
