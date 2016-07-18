@@ -1,5 +1,5 @@
 marid:
-  image: olivernadj/marid:debug
+  image: olivernadj/marid:2.4.3
   volumes:
     - ./etc/marid-proxy.conf:/etc/marid.conf
     - ./scripts:/var/lib/scripts
